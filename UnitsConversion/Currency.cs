@@ -17,12 +17,10 @@ namespace UnitsConversion
                     return calculateM(value);
                 case "B":
                     return calculateB(value);
-                case "H":
-                    return calculateNA(value);
                 default:
-                    break;
+                    return value;
             }
-            return tempList;
+
         }
         static List<object> calculateNA(List<object> value)
         {
@@ -70,7 +68,7 @@ namespace UnitsConversion
         {
             if (value == 0)
             {
-                return "O";
+                return "";
             }
             else
             {
@@ -92,11 +90,11 @@ namespace UnitsConversion
                 // hundreds
                 else if (value <= 999)
                 {
-                    return "H";
+                    return "";
                 }
                 else
                 {
-                    return "O";
+                    return "";
                 }
 
             }

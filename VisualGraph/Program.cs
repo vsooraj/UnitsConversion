@@ -24,7 +24,7 @@ namespace VisualGraph
             foreach (object item in tempList)
             {
                 double temp = (double)item;
-                Console.WriteLine(string.Format("{0:0.000}", temp) + tempCurrency);
+                Console.WriteLine(string.Format("{0:0.00}", temp) + tempCurrency);
             }
         }
     }

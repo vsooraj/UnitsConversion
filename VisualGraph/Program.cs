@@ -9,7 +9,7 @@ namespace VisualGraph
     {
         static void Main(string[] args)
         {
-            List<object> dataActual = new List<object>(new object[] { 248, 7655423, 54232465 });
+            List<object> dataActual = new List<object>(new object[] { 248556, 7655423, 54232465 });
             List<object> dataGoal = new List<object>(new object[] { 4442305, 4433425, 64423465 });
             List<object> tempList = new List<object>();
             tempList = dataGoal.Concat(dataActual).ToList();
@@ -24,7 +24,7 @@ namespace VisualGraph
             foreach (object item in tempList)
             {
                 double temp = (double)item;
-                Console.WriteLine(string.Format("{0:00}", temp) + tempCurrency);
+                Console.WriteLine(string.Format("{0:0.000}", temp) + tempCurrency);
             }
         }
     }

@@ -2,15 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
 	<id>UnitsConversionPackage</id>
-	<version>$version$</version>
+  <version>1.0.0</version>
 	<authors>Sooraj Vidyasagar</authors>
 	<description>UnitsConversion Package</description>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-	<copyright>Copyright 2016</copyright>
-  <tags>Core</tags>
-    <dependencies>
-        <dependency id="Core.Assembly" version="[$version$]" />   
-    </dependencies>
+	<releaseNotes>This package will convert the Units in to K,Billion,Million </releaseNotes>
+	<copyright>Copyright 2016</copyright> 
   </metadata> 
 </package>

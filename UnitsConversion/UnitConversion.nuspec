@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>UnitsConversionPackage</id>
-    <version>1.0.0</version>
-    <authors>Sooraj Vidyasagar</authors>
-    <description>UnitsConversion Package<</description>
-  </metadata>
-  <files>
-    <file src="UnitsConversion.dll" target="lib" />
-  </files>
+	<id>UnitsConversionPackage</id>
+	<version>1.0.0</version>
+	<authors>Sooraj Vidyasagar</authors>
+	<description>UnitsConversion Package<</description>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+	<copyright>Copyright 2016</copyright>
+  </metadata> 
 </package>

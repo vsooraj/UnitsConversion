@@ -6,6 +6,12 @@ namespace UnitsConversion
 {
     public static class Currency
     {
+        /// <summary>
+        /// Convert Data to largest / longest currency 
+        /// </summary>
+        /// <param name="format"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public static List<object> ConvertData(string format, List<object> value)
         {
             List<object> tempList = new List<object>();
